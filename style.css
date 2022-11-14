@@ -76,7 +76,6 @@ margin-top:20px;
 font-family:'Roboto',sans-serif;
 font-size:11px;
 font-weight:500;
-text-transform:uppercase;
 cursor:pointer;
 outline:none;
 text-transform:uppercase;
@@ -244,7 +243,7 @@ text-align:right
     text-align:justify;
     font-family: 'Lora', serif;
     margin: auto;
-    width: 80%;
+    width: 60%;
     padding: 10px;
     margin-top: 150px;
     text-indent: 100px;
@@ -260,4 +259,32 @@ text-align:right
     font-family:'Playfair Display',serif;
     font-style:italic;
     color: white;
+}
+
+.contentheader{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 50px;
+    text-indent: 0px;
+}
+
+.listitem{
+    font-weight: bold;
+    font-size: 18px;
+}
+.listcontent{
+    list-style-type: circle;
+    margin-left: 100px;
+}
+
+
+
+.listcontentspan{
+    position: relative;
+    left: -60px;
+}
+
+.travelcontent{
+    font-size: 18px;
 }
