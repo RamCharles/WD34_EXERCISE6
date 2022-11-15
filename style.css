@@ -288,3 +288,8 @@ text-align:right
 .travelcontent{
     font-size: 18px;
 }
+
+.logoid{
+    -webkit-filter: drop-shadow(5px 5px 5px #666666);
+        filter: drop-shadow(5px 5px 5px #666666);
+}
