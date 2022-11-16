@@ -61,32 +61,32 @@ text-shadow:0 0 0,0 0 200px #000
 }
 
 .explorepage{
-    font-size: 143px;
-    color: #ffff;
-    font-weight: 600;
-    font-family: 'Lobster',cursive;
-    text-shadow: 0 0 0, 0 0 200px #000;
-    position: absolute;
-    margin-top: -900px;
-    margin-left: 771px;
-    font-style: italic;
+ font-size: 143px;
+ color: #ffff;
+ font-weight: 600;
+ font-family: 'Lobster',cursive;
+ text-shadow: 0 0 0, 0 0 200px #000;
+ position: absolute;
+ margin-top: -900px;
+ margin-left: 771px;
+ font-style: italic;
 }
 
 .buttondown{
-    text-align: center;
-    font-size: 100px;
-    margin-top: -500px;
-    margin-bottom: 500px;
-    text-decoration: none;
+ text-align: center;
+ font-size: 100px;
+ margin-top: -500px;
+ margin-bottom: 500px;
+ text-decoration: none;
 }
 
 i{
-    color: rgb(220, 231, 159);
-  }
+ color: rgb(220, 231, 159);
+ }
 
 
 i:hover{
-    color: yellow;
+ color: #FFFF00;
 }
 
 .explore {
@@ -115,7 +115,7 @@ border-radius:10px
 
 
 #explorer:hover{
-    background: white;
+ background: #FFFFFF;
 }
 .navbar-light .navbar-nav .nav-link {
 color:#000;
@@ -228,139 +228,266 @@ text-align:right
 }
 
 .landingcity {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:100%;
-    height:500px;
-    object-fit:cover;
-    object-position:0 40%;
-    box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-    filter: brightness(50%);
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ width:100%;
+ height:500px;
+ object-fit:cover;
+ object-position:0 40%;
+ box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+ filter: brightness(50%);
 }
 
 .comment-container{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: left;
-    font-family:'Playfair Display',serif;
+ margin: auto;
+ width: 50%;
+ padding: 10px;
+ text-align: left;
+ font-family:'Playfair Display',serif;
 }
 
 .zamboangacontent{
-    text-align:justify;
-    font-family: 'Lora', serif;
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-    text-indent: 100px;
+ text-align:justify;
+ font-family: 'Lora', serif;
+ margin: auto;
+ width: 60%;
+ padding: 10px;
+ text-indent: 100px;
 }
 
 #note{
-    margin-left: -100px;
+ margin-left: -100px;
 }
 
 .zamboangaguide{
-    position:absolute;
-    margin: auto;
-    top:30%;
-    left:25%;
-    font-size:60px;
-    font-weight:10;
-    font-family:'Playfair Display',serif;
-    font-style:italic;
-    color: white;
+ position:absolute;
+ margin: auto;
+ top:30%;
+ left:25%;
+ font-size:60px;
+ font-weight:10;
+ font-family:'Playfair Display',serif;
+ font-style:italic;
+ color: #FFFFFF;
 }
 
 .contentheader{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-top: 50px;
-    text-indent: 0px;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 30px;
+ margin-top: 50px;
+ text-indent: 0px;
 }
 
 .listitem{
-    font-weight: bold;
-    font-size: 18px;
+ font-weight: bold;
+ font-size: 18px;
 }
 .listcontent{
-    margin-left: 20%;
-    width: 60%;
+ margin-left: 20%;
+ width: 60%;
 }
 
 .listcontent ul{
-    list-style-type: circle;
+ list-style-type: circle;
 }
 
-
 .travelcontent{
-    font-size: 20px;
+ font-size: 20px;
 }
 
 .flightfinder{
-  max-width: 900px;
-  width: 100%;
-  background-color: #fff;
-  padding: 25px 30px;
-  border-radius: 20px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
-  margin: auto;
+ max-width: 900px;
+ width: 100%;
+ background-color: #fff;
+ padding: 25px 30px;
+ border-radius: 20px;
+ box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+ margin: auto;
 }
 
 .flightfinder .title{
-  font-size: 25px;
-  font-weight: 500;
-  position: relative;
+ font-size: 25px;
+ font-weight: 500;
+ position: relative;
 }
 
 .flightfinder form .user-details{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px 0 12px 0;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin: 20px 0 12px 0;
 }
 form .user-details .input-box{
-  margin-bottom: 15px;
-  width: calc(100% / 2 - 20px);
+ margin-bottom: 15px;
+ width: calc(100% / 2 - 20px);
 }
 form .input-box span.details{
-  display: block;
-  font-weight: 500;
-  margin-bottom: 5px;
+ display: block;
+ font-weight: 500;
+ margin-bottom: 5px;
 }
 .user-details .input-box input{
-  height: 45px;
-  width: 100%;
-  outline: none;
-  font-size: 16px;
-  border-radius: 5px;
-  padding-left: 15px;
-  border: 1px solid #ccc;
-  border-bottom-width: 2px;
-  transition: all 0.3s ease;
+ height: 45px;
+ width: 100%;
+ outline: none;
+ font-size: 16px;
+ border-radius: 5px;
+ padding-left: 15px;
+ border: 1px solid #ccc;
+ border-bottom-width: 2px;
+ transition: all 0.3s ease;
 }
 
 form .button{
-   height: 45px;
-   margin: 35px 0
+ height: 45px;
+ margin: 35px 0
  }
- 
+
 form .button input{
-   height: 100%;
-   width: 100%;
-   border-radius: 5px;
-   border: none;
-   color: #fff;
-   font-size: 18px;
-   font-weight: 500;
-   letter-spacing: 1px;
-   cursor: pointer;
-   transition: all 0.3s ease;
-   background: blue;
+ height: 100%;
+ width: 100%;
+ border-radius: 5px;
+ border: none;
+ color: #fff;
+ font-size: 18px;
+ font-weight: 500;
+ letter-spacing: 1px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ background: #0000FF;
 }
 
  form .button input:hover{
-  background: lightblue;
+ background: #ADD8E6;
 }
 
+#CommentSpace{
+ height: 100px;
+ width: 837px;
+ outline: none;
+ font-size: 16px;
+ border-radius: 5px;
+ padding-left: 15px;
+ border: 1px solid #ccc;
+ border-bottom-width: 2px;
+ transition: all 0.3s ease;
+}
+
+.cardimage-container1{
+ text-align: center;
+}
+.cardimage{
+ border-radius: 25px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;
+ height: 500px;
+ object-fit: cover;
+ object-position: 0 75%;
+}
+
+.hotelimage{
+ height: 275px;
+ width: 226px;
+ object-fit: cover;
+ border-radius: 25px;
+
+}
+
+
+
+.hotelcolumn{
+ border-spacing: 13px;
+ border-collapse: separate;
+ text-align: center;
+ font-family: 'Lora', serif;
+ margin-left: 20%;
+ text-indent: 100px;
+ font-weight: bolder;
+}
+
+.tourimages{
+    border-radius: 25px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;
+ height: 500px;
+ object-fit: cover;
+ object-position: 0 75%;
+ margin-top: 5%;
+}
+
+.itinerary{
+margin-left: 20%;
+width: 60%;
+}
+   
+.itinerary ul{
+list-style-type: decimal;
+}
+
+.aboutpage{
+    background: black;
+}
+
+
+#destinationconnect {
+    position: fixed;
+    top: 90%;
+    left: 80%;
+    text-decoration: none;
+    padding: 7px 45px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000;
+    background-color: rgba(255,255,255,0.527);
+    border: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    }
+    
+    
+    #destinationconnect:hover{
+     background: #FFFFFF;
+    }
+
+    #videopost {
+        position:fixed;
+        right:180px;
+        bottom:0;
+        max-width:100%;
+        min-height:100%;
+        pointer-events:none;
+        z-index:-1
+        }
+        
+
+        
+.aboutcontent{
+    width: 35%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 80px;
+    margin-top: 275px;
+}
+
+.aboutusheader{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.aboutcontenttext{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
